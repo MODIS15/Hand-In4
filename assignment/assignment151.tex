@@ -1,1 +1,11 @@
 \section{Assignment 15.1}
+An unreliable failure detector may  produce one or two values when given the identity of a process, which can either be Unsuspected or Suspected. 
+
+\begin{itemize}
+	\item{Unsuspected} The detector has recently received evidence suggesting that the process has not failed. By way of example, a message may recently have been received from it. The process may have failed since.
+	
+	\item{Suspected} The detector may have some indication that the process has failed. By way of example, a process may not have received any message for a prolonged timeframe that exceeds a nominal maximum length of silence. The reason may be that the network has been slow while the process is still functioning.
+\end{itemize}
+
+
+Both of these may or may not accurately reflect whether the process has actually failed

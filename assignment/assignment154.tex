@@ -1,1 +1,9 @@
 \section{Assignment 15.4}
+\begin{itemize}
+	\item Process A sends a request rA for entry then sends a message m to B
+	\item On receipt of m, B sends request rB for entry. To satisfy happened-before order, rA should be granted before rB . 
+	\item Due to the changes of message transmission delay, rB arrives at the server before rA , and they are serviced in the opposite order. 
+\end{itemize}
+
+
+	

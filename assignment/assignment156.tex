@@ -1,1 +1,4 @@
 \section{Assignment 15.6}
+A scenario where process X wait indefinitely if new processes XY keep occurring or using the requested resource repeatedly. By way of example, a simple scheduling algorithm could cause starvation in a multi-tasking system. The system might always switch between the first two tasks while a third never gets to run, consequently starving the third task of CPU time.\\\\
+
+Another example: A server that uses optimistic concurrency control but doesn’t verify that a client has its transaction aborted repeatedly will lead to starvation of the client.
