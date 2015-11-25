@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  25 NOV 2015 10:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  25 NOV 2015 20:59
 entering extended mode
 **C:/Users/FamilienMarstrand/Documents/MODIS_Exercises/Hand-In4/HandIn4MAin.tex
 
@@ -90,7 +90,31 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks16
 \@floatcapt=\box27
 )
-(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\HandIn4MAin.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\HandIn4MAin.aux
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment151.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment153.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment154.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment156.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment1522.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment1523.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment162.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment163.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment168.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment169.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment1616.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment1618.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
@@ -103,6 +127,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
+
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count90
@@ -132,51 +157,138 @@ Overfull \hbox (53.84184pt too wide) in paragraph at lines 13--13
  [][] 
  []
 
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\HandIn4MAin.toc)
+\tf@toc=\write3
 [1
 
 {C:/Users/FamilienMarstrand/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
 (C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
-nment151.tex)
+nment151.tex) [2
+
+]
 (C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
-nment153.tex)
+nment153.tex) [3
+
+
+]
 (C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
-nment154.tex)
+nment154.tex) [4
+
+
+]
 (C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
-nment156.tex)
+nment156.tex) [5
+
+
+]
 (C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
-nment1522.tex)
+nment1522.tex) [6
+
+
+]
 (C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
-nment1523.tex)
+nment1523.tex) [7
+
+
+]
 (C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
-nment162.tex)
+nment162.tex) [8
+
+
+]
 (C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
-nment163.tex)
+nment163.tex) [9
+
+
+]
 (C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
-nment168.tex)
+nment168.tex <image/assignment168.png, id=35, 377.15906pt x 190.46156pt>
+File: image/assignment168.png Graphic file (type png)
+
+<use image/assignment168.png>
+Package pdftex.def Info: image/assignment168.png used on input line 4.
+(pdftex.def)             Requested size: 345.0pt x 174.22119pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 6--26
+
+ []
+
+[10
+
+
+ <C:/Users/FamilienMarstrand/Documents/MODIS_Exercises/Hand-In4/image/assignmen
+t168.png>]
 (C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
-nment169.tex)
+nment169.tex <image/assignment169.png, id=40, 375.65344pt x 313.17pt>
+File: image/assignment169.png Graphic file (type png)
+
+<use image/assignment169.png>
+Package pdftex.def Info: image/assignment169.png used on input line 4.
+(pdftex.def)             Requested size: 345.0pt x 287.63246pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+) [11
+
+
+ <C:/Users/FamilienMarstrand/Documents/MODIS_Exercises/Hand-In4/image/assignmen
+t169.png>] [12]
 (C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
-nment1616.tex)
+nment1616.tex) [13
+
+
+]
 (C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
-nment1618.tex) [2]
-(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\HandIn4MAin.aux)
- ) 
+nment1618.tex) [14
+
+
+]
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\HandIn4MAin.aux
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment151.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment153.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment154.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment156.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment1522.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment1523.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment162.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment163.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment168.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment169.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment1616.aux)
+(C:\Users\FamilienMarstrand\Documents\MODIS_Exercises\Hand-In4\assignment/assig
+nment1618.aux)) ) 
 Here is how much of TeX's memory you used:
- 1555 strings out of 493921
- 22435 string characters out of 3144841
- 72627 words of memory out of 3000000
- 4838 multiletter control sequences out of 15000+200000
- 7280 words of font info for 26 fonts, out of 3000000 for 9000
+ 1633 strings out of 493921
+ 27549 string characters out of 3144841
+ 76659 words of memory out of 3000000
+ 4861 multiletter control sequences out of 15000+200000
+ 7934 words of font info for 28 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,24p,308b,197s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on HandIn4MAin.pdf (2 pages, 48154 bytes).
+ 27i,6n,24p,511b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pf
+b>
+Output written on HandIn4MAin.pdf (14 pages, 458473 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
