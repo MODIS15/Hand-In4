@@ -3,12 +3,11 @@
 \begin{figure}[H]
 	\includegraphics[width = \linewidth]{assignment169}
 \end{figure}
-
-a) and b) are serially equivalent, because the write operations on \textit{i} and on \textit{j} are equivalent to writing \textit{j} and \textit{i} since the operations happen on different objects and will not interfere. 
-c) and d) are serially equivalent, because reading \textit{i} and writing \textit{j} in d) is equivalent to writing to \textit{j} and reading \textit{i} as in c), since the action happens on different objects, which do not interfere with each other.\\\\
+Both a), b), c), and d) are serially equivalent. a) is serially equivalent to T before U, b) is serially equivalent to T before U, c) is serially equivalent to U before T, d) is serially equivalent to U before T.\\\\
 The 2-phase-locking protocol states that a transaction must handle its locks in two distinct, consecutive phases during the transaction's execution:
 \begin{enumerate}
 	\item \textbf{Expanding phase}' (aka Growing phase): locks are acquired and no locks are released (the number of locks can only increase).
 	\item \textbf{Shrinking phase}: locks are released and no locks are acquired.
 \end{enumerate}
-therefore only b) and c) could occur with two-phase locking. As an example of why a) or b) could not occur one could look at a, where \textit{T} needs to acquire a lock to read \textit{i}, then it needs to release the lock for \textit{U} to use it, but then another lock is acquired for \textit{T} to make a write to \textit{j}. This is not allowed according to the 2pl protocol.
+You can do this in all the interleavings, and so they could all happen with 2PL. b) and c) are the most obvious choices because T comes before U and U comes before T, which clearly makes it possible to acquire locks and release them. But also a) and )d could be done with 2PL. For a) you could just lock both \textit{i} and \textit{j} for T in the beginning and then release them one at a time, then lock them one at a time for U and release all of them in the end.\\
+For d) you could use the same strategy just starting with the locks for U and then for T.
