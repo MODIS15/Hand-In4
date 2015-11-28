@@ -1,1 +1,62 @@
 \section{Assignment 16.3}
+
+\textbf{(I) Strict:} \\
+Before (U) accessing a resource, a transaction must wait for all previous transactions (T), accessing the same resource, to either commit or abort. \\Transaction T will lock j and i. This is Strict and Transaction T will not unlock the locked resources before all reads and writes are done.\\\\ Transaction U will commit after (write(k, 66). 
+
+\begin{center}
+	\begin{tabular}{| l | l |}
+		\hline
+		Transaction T & Transaction U \\ \hline
+		x:=read(j) &  \\ \hline
+		y:=read(i) &  \\ \hline
+		 & x:=read(k) \\ \hline
+		write(j, 44) &   \\ \hline
+		write(i, 33) &  \\ \hline
+		COMMIT &  \\ \hline
+		 & write(i, 55)  \\ \hline
+		 & y:=read(j)  \\ \hline
+		 & write(k, 66)  \\
+		\hline
+	\end{tabular}
+\end{center}
+
+\textbf{(II) Not strict, no cascading aborts:} \\
+Not strict since U access i before T commits, but there’s no cascading abort since there can be no dirty reads.
+
+\begin{center}
+	\begin{tabular}{| l | l |}
+		\hline
+		Transaction T & Transaction U \\ \hline
+		x:=read(j) &  \\ \hline
+		y:=read(i) &  \\ \hline
+		 & x:=read(k) \\ \hline
+		write(j, 44) &   \\ \hline
+		write(i, 33) &  \\ \hline
+		 & write(i, 55)  \\ \hline
+		COMMIT &  \\ \hline
+		 & y:=read(j)  \\ \hline
+		 & write(k, 66) \\ 
+		\hline
+	\end{tabular}
+\end{center}
+
+
+\textbf{(III) With Cascading aborts:} \\
+U is reading before T commits. Therefore, a cascading abort can happen after U tries to read j it is not committed yet. 
+
+\begin{center}
+	\begin{tabular}{| l | l |}
+		\hline
+		Transaction T & Transaction U \\ \hline
+		x:=read(j) &  \\ \hline
+		y:=read(i) &  \\ \hline
+		 & x:=read(k) \\ \hline
+		write(j, 44) &   \\ \hline
+		write(i, 33) & \\ \hline
+		 & write(i, 55) \\ \hline
+		 & y:=read(j) \\ \hline
+		COMMIT &  \\ \hline
+		 & write(k, 66)  \\
+		\hline
+	\end{tabular}
+\end{center}

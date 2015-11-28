@@ -1,1 +1,51 @@
 \section{Assignment 16.2}
+Give three serially equivalent interleaveings of Transaction T and U: 
+
+\begin{center}
+	\begin{tabular}{| l | l |}
+		\hline
+		Transaction T & Transaction U \\ \hline
+		 & x:=read(k)  \\ \hline
+		x:=read(j) &   \\ \hline
+		y:=read(i) &  \\ \hline
+		write(j, 44) &   \\ \hline
+		write(i, 33) &  \\ \hline
+		 & write(i, 55) \\ \hline
+		 & y:=read(j) \\ \hline
+		 & write(k, 66)  \\
+		\hline
+	\end{tabular}
+\end{center}
+
+
+\begin{center}
+	\begin{tabular}{| l | l |}
+		\hline
+		Transaction T & Transaction U \\ \hline
+		x:=read(j) &   \\ \hline
+		y:=read(i) &   \\ \hline
+		write(j, 44) &  \\ \hline
+		write(i, 33) &   \\ \hline
+		 & x:=read(k) \\ \hline
+		 & write(i, 55) \\ \hline
+		 & y:=read(j) \\ \hline
+		 & write(k, 66)  \\
+		\hline
+	\end{tabular}
+\end{center}
+
+\begin{center}
+	\begin{tabular}{| l | l |}
+		\hline
+		Transaction T & Transaction U \\ \hline
+		x:=read(j) &   \\ \hline
+		y:=read(i) &   \\ \hline
+		 & x:=read(k) \\ \hline
+		write(j, 44) &   \\ \hline
+		write(i 33)  &  \\ \hline
+		 & write(i, 55) \\ \hline
+		 & y:=read(j) \\ \hline
+		 & write(k, 66)  \\
+		\hline
+	\end{tabular}
+\end{center}
