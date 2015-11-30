@@ -1,1 +1,83 @@
 \section{Assignment 16.16}
+
+\begin{table}[H]
+	\centering
+	\caption{T commits first with backward validation}
+	\label{TfirstBack}
+	\begin{tabular}{|l|l|}
+		\hline
+		T           & U           \\ \hline
+		read(i)     &             \\ \hline
+		write(j,44) &             \\ \hline
+		& write(i,55) \\ \hline
+		& write(j,66) \\ \hline
+		Validate    &             \\ \hline
+		Commit      &             \\ \hline
+		& Validate    \\ \hline
+		& Commit       \\ \hline
+	\end{tabular}
+\end{table}
+\textbf{Table \ref{TfirstBack}} shows that T's transactions commits while U's transaction will also comit because by the definition of backward validation, one is not allowed to read something written by another one. However, in this case U will not read anything written by T.
+
+\begin{table}[H]
+	\centering
+	\caption{U commits first with backward validation}
+	\label{UfirstBack}
+	\begin{tabular}{|l|l|}
+		\hline
+		T           & U           \\ \hline
+		read(i)     &             \\ \hline
+		write(j,44) &             \\ \hline
+					& write(i,55) \\ \hline
+					& write(j,66) \\ \hline
+				    & Validate   \\ \hline
+				    & Commit      \\ \hline
+		Validate	&    \\ \hline
+		Abort		&     \\ \hline
+	\end{tabular}
+\end{table}
+\textbf{Table \ref{UfirstBack}} shows that U's transactions commits first while T's transaction will abort because by the definition of backward validation, one is not allowed to read something written by someone else concurrently. In this case T will read something written by U and should thus abort.
+
+
+\begin{table}[H]
+	\centering
+	\caption{T commits first with forward validation}
+	\label{TFirstFor}
+	\begin{tabular}{|l|l|}
+		\hline
+		T           & U           \\ \hline
+		read(i)     &             \\ \hline
+		write(j,44) &             \\ \hline
+		& write(i,55) \\ \hline
+		& write(j,66) \\ \hline
+		Validate    &             \\ \hline
+		Commit      &             \\ \hline
+		& Validate    \\ \hline
+		& Commit      \\ \hline
+	\end{tabular}
+\end{table}
+\textbf{Table \ref{TFirstFor}} shows that T's transactions commits first while U's transaction will also commit because by the definition of forward validation, one is not allowed to write something read by someone else concurrently. In this case, U does not read anything and thus no conflicts are occuring.
+
+
+\begin{table}[H]
+	\centering
+	\caption{U commits first with forward validation}
+	\label{UFirstFor}
+	\begin{tabular}{|l|l|}
+		\hline
+		T            & U            \\ \hline
+		read(i)      &              \\ \hline
+		write(j,44)  &              \\ \hline
+		& write(i,55)  \\ \hline
+		& write(j,66)  \\ \hline
+		& Validate     \\ \hline
+		& Abort/Commit \\ \hline
+		Validate     &              \\ \hline
+		Abort/Commit &              \\ \hline
+	\end{tabular}
+\end{table}
+
+\textbf{Table \ref{UFirstFor}} shows that U's transactions can commit or abort annd T's transaction can also commit or abort by choice, since by the definition of forward validation, one is not allowed to write something read by someone else concurrently.. In this case U will write something that is being read by T.\\\\So U can choose to abort its own transaction or T's transaction. \textit{(See Lecture06.pdf slide 55 on learnit.itu.dk for definition)}
+However, as defined in \textit{(Lecture06.pdf slide 44 on learnit.itu.dk for definition)}, U's transaction must abort.
+
+
