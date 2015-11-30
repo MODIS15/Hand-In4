@@ -1,1 +1,3 @@
 \section{Assignment 15.22}
+We assume correct processes can reach different conclusions due to a use of different algorithms. This implies we cannot reach a conclusion in one round of messages due to the fact that there may be multiple correct answers provided by loyal lieutenants. This could be solved by letting each processor send three signed messages. One for the commander, one for a lieutenant and thereafter forward the message the lieutenant has received. This enables the commander to find disloyal lieutenant and thus cast a faithful vote.
+The solution assumes the commander cannot be disloyal, which is the proposed integrity solution.

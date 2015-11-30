@@ -1,1 +1,9 @@
 \section{Assignment 15.23}
+Assume the system has 3 generals. One of these is treacherous. Also, assume a signature cannot be forged and everyone can validate the authenticity of a signature.
+
+\begin{itemize}
+	\item All generals send their conclusion to all other lieutenants. 
+	\item Each lieutenant forwards the received orders to the other lieutenants.
+\end{itemize}
+
+It is now possible to determine which lieutenant was faulty based on the signature since, by the assumption, one is not able to forge signatures when forwarding messages.
